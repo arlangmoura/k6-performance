@@ -8,6 +8,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: step 2 - run k6 load test
-      uses: grafana/k6-action@v0.3.0v
-      with:
-          filename: scripts/exemplo1.js
+      uses: grafana/k6-action@v0.3.0
+        with:
+          filename: D:\Projetos\k6-performance\k6\scripts\exemplo1.js
+          flags: --vus 50 --duration 10s
