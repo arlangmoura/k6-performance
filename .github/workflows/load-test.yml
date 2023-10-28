@@ -9,5 +9,5 @@ jobs:
 
     - name: step 2 - run k6 load test
       uses: grafana/k6-action@v0.3.0
-        with:
-          filename: scripts/exemplo1.js
+      with:
+        filename: scripts/exemplo1.js
